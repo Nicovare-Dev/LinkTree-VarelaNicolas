@@ -1,0 +1,219 @@
+body {
+    background-color: rgb(37, 35, 35);
+    margin: 0;
+}
+
+main{
+    margin-top: 15px;
+}
+
+nav{
+    text-align: center;
+    margin: 0;
+}
+
+.lista{
+    background-color: rgb(40, 45, 51);
+    padding: 15px;
+    margin: 0;
+}
+
+.listados{
+    display: inline;
+}
+
+.listados a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+
+#pixel{
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.botones{
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(49, 66, 97);
+    font-weight: 500;
+    margin: 10px;
+}
+
+.botones:hover{
+    background-color: rgb(83, 104, 142);
+}
+
+aside{
+    background-color: rgb(40, 45, 51);
+    border: 1px black solid;
+    border-radius: 20px;
+    margin: 5px;
+    display: inline-block;
+    width: 19%; 
+    height: 900px;
+}
+
+.sec{
+    background: linear-gradient(rgb(49, 66, 97), black);
+    display: inline-block;
+    border: 1px black solid;
+    border-radius: 20px;
+    margin: 5px;
+    width: 79.47%;
+    height: 900px;
+    vertical-align: top;
+}
+
+footer{
+    background-color: rgb(40, 45, 51);
+    text-align: center;
+}
+
+footer p{
+    color: white;
+    margin: 0;
+}
+
+footer ul li{
+    display: inline;
+}
+
+footer ul li a img{
+    width: 50px;
+    margin: 10px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.tituloCancion{
+    font-size: 50px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    display: inline;
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: center;
+    margin-right: 105px;
+}
+
+.contenedor{
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 109px;
+}
+
+.contenedor a{
+    float: left;
+}
+
+aside ul{
+    padding: 0;
+}
+
+aside ul li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+aside ul li:hover{
+    background-color: rgb(42, 42, 42);
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.canciones{
+    height: 40px;
+    width: 40px;
+    padding-right: 10px;
+}
+
+.sec ul{
+    padding: 0;
+}
+
+.sec ul li{
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.sec ul li:hover{
+    background-color: rgb(37, 38, 38);
+}
+
+.sec ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.nombres{
+    font-size: 15px;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+.imgCanciones{
+    width: 100px;
+    height: 100px;
+    padding: 8px;
+}
+
+.video{
+    display: block;
+    width: 900px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.descripcion{
+    color: white;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+.flecha{
+    margin-left: 20px;
+}
+
+.flecha:hover{
+    scale: 1.05;
+}
+
+#DWAS{
+    color: rgb(19, 161, 19);
+}
+#BOAF{
+    color: rgb(19, 161, 19);
+}
+#OR{
+    color: rgb(19, 161, 19);
+}
+#APT{
+    color: rgb(19, 161, 19);
+}
+#LU{
+    color: rgb(19, 161, 19);
+}

@@ -1,0 +1,67 @@
+body{
+    background-image: url(../imagenes/celda\ abierta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#papel{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 513px;
+    left: 395px;
+}
+
+#clave{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 140px;
+    bottom: 120px;
+}   
+
+#nokia{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 250px;
+    left: 380px;
+    transform: rotate(290deg);
+}
+
+#pistaPapel{
+    position: absolute;
+    left: 500px;
+    height: 600px;
+    width: 600px;
+}
+
+#pistaNokia{
+    position: absolute;
+    left: 500px;
+    height: 600px;
+    width: 600px;
+}
+
+#puertacelda{
+    position: absolute;
+    right: 0px;
+    bottom: 58px;
+    width: 370px;
+
+}
+
+#codigo{
+    position: absolute;
+    left: 630px;
+    top: 250px;
+    transform: rotate(346deg);
+    font-size: 40px;
+    font-family: "Rock Salt", cursive;
+}
+
+#tabla{
+    position: absolute;
+    left: 550px;
+    bottom: 100px;
+}

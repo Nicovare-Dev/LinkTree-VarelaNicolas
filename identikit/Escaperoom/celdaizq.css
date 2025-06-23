@@ -1,0 +1,32 @@
+body{
+    background-image: url(../imagenes/celda\ izq.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#puerta{
+    bottom: 10px;
+    position: absolute;
+    right: 0px;
+}
+
+#llave{
+    position: absolute;
+    width: 35px;
+    right: 475px;
+    top: 335px;
+    transform: rotate(90deg);
+}
+
+#llave2{
+    position: absolute;
+    width: 500px;
+    left: 550px;
+    top: 200px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 130px;
+    color: rgb(68, 255, 0);
+}

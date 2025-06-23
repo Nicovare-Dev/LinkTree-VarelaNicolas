@@ -1,0 +1,27 @@
+body{
+    background-image: url(../imagenes/esposado.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: "Goblin One", serif;
+    color: red;
+    font-size: 90px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin-top: 400px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+    border: solid 1px black;
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px;
+}

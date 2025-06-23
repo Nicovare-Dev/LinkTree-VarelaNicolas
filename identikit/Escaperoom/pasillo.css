@@ -1,0 +1,31 @@
+body{
+    background-image: url(../imagenes/pasillo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.puertader{
+    position: absolute;
+    right: 198px;
+    bottom: 20px;
+}
+
+.puertaizq{
+    position: absolute;
+    bottom: 41px;
+    left: 150px;
+}
+
+#cofreCerrado{
+    width: 70px;
+    position:absolute;
+    bottom: 130px;
+    left: 525px;
+}
+
+#cofreAbierto{
+    width: 70px;
+    position:absolute;
+    bottom: 130px;
+    left: 525px;
+}
