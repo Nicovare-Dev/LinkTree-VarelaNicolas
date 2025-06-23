@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(180deg,rgba(165, 66, 31, 1) 23%, rgba(62, 33, 23, 1) 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.header{
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+}
+
+.foto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.titulo{
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.descripcion{
+    color: rgb(224, 221, 221);
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+}
+
+ul{
+    margin-top: 35px;
+}
+
+.links{
+    display: inline;
+}
+
+.lista{
+    text-decoration: none;
+    color: rgb(211, 206, 206);
+    margin-right: 15px;
+}
+
+.lista img:hover{
+    scale: 1.03;
+}
+
+.lista img{
+    width: 50px;
+}
+
+.paginas{
+    background-color: rgba(194, 91, 54, 0.651);
+    margin-top: 25px;
+    margin-left: 500px;
+    border-radius: 25px;
+    width: 530px;
+    padding: 10px;
+    display: block;
+    transition: 150ms;
+}
+
+.paginas:hover{
+    scale: 1.05;
+}
+
+.paginas a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.paginas a p{
+    margin-left: 170px;
+    font-size: 25px;
+    color: rgb(240, 237, 237);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.paginas a img{
+    width: 30px;
+    margin-left: 15px;
+}
