@@ -81,6 +81,9 @@ nav ol li{
 .animate__animated.animate__fadeInDown.cuatro{
     animation-delay: 800ms;
 }
+.animate__animated.animate__fadeInDown.cinco{
+    animation-delay: 1s;
+}
 
 nav ol li a{
     padding: 5px;
