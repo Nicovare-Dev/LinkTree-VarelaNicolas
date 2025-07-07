@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="lista-tareas.css">
+</head>
+<body>
+    <a href="../inicioPortfolio.html">
+        <button class="boton-volver">Volver</button>
+    </a>
+
+    <div class="contenedor-lista">
+        <h1>Lista de Tareas</h1>
+        
+        <div class="formulario-tarea">
+        <input type="text" id="entrada-tarea" placeholder="Escribí una tarea...">
+        <button onclick="agregarTarea()">Agregar</button>
+        </div>
+
+        <ul class="lista-tareas" id="lista-tareas">
+            
+        </ul>
+    </div>
+
+    <script src="lista-tareas.js"></script>
+</body>
+</html>

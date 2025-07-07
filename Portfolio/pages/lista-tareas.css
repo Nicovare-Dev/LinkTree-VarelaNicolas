@@ -1,0 +1,97 @@
+body {
+    background-color: #385370;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    min-height: 100vh;
+}
+
+.boton-volver{
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 1rem;
+}
+
+.contenedor-lista {
+    margin-top: 2rem;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.contenedor-lista h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formulario-tarea {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#entrada-tarea {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.formulario-tarea button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.formulario-tarea button:hover {
+    background-color: #218838;
+}
+
+.lista-tareas {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-tareas li {
+    padding: 10px;
+    background-color: #f8f9fa;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista-tareas li.hecha {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.lista-tareas button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.lista-tareas button:hover {
+    background-color: #c82333;
+}

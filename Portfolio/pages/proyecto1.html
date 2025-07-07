@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <a href="../inicioPortfolio.html">
+        <button class="boton-volver">Volver</button>
+    </a>
+    
+    <h1>Calculadora</h1>
+    <div class="calculadora">
+        <input type="text" id="pantalla" disabled>
+        <div class="botones">
+        <button onclick="limpiarPantalla()" class="rojo">AC</button>
+        <button onclick="agregarValor('÷')">÷</button>
+        <button onclick="agregarValor('X')">X</button>
+        <button onclick="borrarUltimo()" class="rojo">⌫</button>
+
+        <button onclick="agregarValor('7')">7</button>
+        <button onclick="agregarValor('8')">8</button>
+        <button onclick="agregarValor('9')">9</button>
+        <button onclick="agregarValor('-')">-</button>
+
+        <button onclick="agregarValor('4')">4</button>
+        <button onclick="agregarValor('5')">5</button>
+        <button onclick="agregarValor('6')">6</button>
+        <button onclick="agregarValor('+')">+</button>
+
+        <button onclick="agregarValor('1')">1</button>
+        <button onclick="agregarValor('2')">2</button>
+        <button onclick="agregarValor('3')">3</button>
+        <button onclick="calcular()">=</button>
+
+        <button onclick="agregarValor('0')" class="cero">0</button>
+        <button onclick="agregarValor('.')">,</button>
+        </div>
+    </div>
+    <script src="calculadora.js"></script>
+</body>
+</html>

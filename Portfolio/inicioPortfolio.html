@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+    
+
+    <button id="boton-menu" class="boton-menu">☰</button>
+
+    <nav id="barra-navegacion">
+        <ol>
+            <li class="animate__animated animate__fadeInDown uno">
+                <a href="#">Inicio</a>
+            </li>
+            <li class="animate__animated animate__fadeInDown dos">
+                <a href="#sobre-mi"> Sobre Mi</a>
+            </li>
+            <li class="animate__animated animate__fadeInDown tres">
+                <a href="#proyectos">Proyectos</a>
+            </li>
+            <li class="animate__animated animate__fadeInDown cuatro">
+                <a href="#contacto">Contacto</a>
+            </li>
+        </ol>
+    </nav>
+
+
+
+    <div class="container">
+        <div class="texto-bienvenida">
+            <h5 class="texto-1">Hola, Mi nombre es</h5>
+            <h1 class="titulo">Nicolas Varela</h1>
+            <h3 class="subtitulo">Estudiante de desarrollo de software</h3>
+            <br>
+            <p class="texto">Acá podés conocer un poco sobre mí, ver algunos de mis proyectos y encontrar cómo contactarme. ¡Gracias por visitar!</p>
+        </div>
+
+        <div id="sobre-mi">
+            <hr>
+            <br>
+            <h1 class="subtitulo blanco"><b class="numeros">02.</b> Sobre mí</h1> 
+            <br>
+            <p class="texto">
+                Hola!! mi nombre es Nicolás, estudiante de la <b class="numeros">Tecnicatura en Desarrollo de Software en UADE.</b> Me formé en desarrollo web <b class="numeros">Full Stack</b>, aprendiendo tecnologías como <b class="numeros">HTML, CSS, JavaScript, ReactJS y Node.js</b> En un curso de <b class="numeros">CoderHouse</b> con una duracion de 1 año. Desde que visité la empresa Globant en la secundaria descubrí mi interés por la programación, especialmente en la <b class="numeros">creación de páginas web.</b> Me apasionan los desafíos y disfruto encontrar soluciones <b class="numeros">creativas</b>, valorando el <b class="numeros">trabajo en equipo</b> y la posibilidad de resolver problemas de forma <b class="numeros">única.</b>
+            </p>
+            <br>
+            <img src="images/foto nicolas.png" alt="Foto Nicolas Varela" class="imagen-yo">
+        </div>
+
+        <div id="proyectos">
+            <hr>
+            <br>
+            <h2 class="subtitulo blanco"><b class="numeros">03.</b> Proyectos</h2>
+            <div class="contenedor-cards">
+                <div class="card-proyecto">
+                <h3>Calculadora</h3>
+                <p>Una calculadora simple hecha con HTML, CSS y JavaScript para realizar operaciones básicas.</p>
+                <a href="./pages/proyecto1.html" class="boton-proyecto">Ver proyecto</a>
+                </div>
+
+                <div class="card-proyecto">
+                <h3>Lista de Tareas</h3>
+                <p>Aplicación para crear y eliminar tareas de manera dinámica.</p>
+                <a href="./pages/proyecto2.html" class="boton-proyecto">Ver proyecto</a>
+                </div>
+
+                <div class="card-proyecto">
+                <h3>Botonera de Sonidos</h3>
+                <p>Botones que reproducen distintos sonidos al hacer clic. Hecho con JavaScript puro.</p>
+                <a href="./pages/proyecto3.html" class="boton-proyecto">Ver proyecto</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="contacto">
+            <hr>
+            <br>
+            <h2 class="subtitulo blanco"> <b class="numeros">04.</b> Contacto</h2>
+            <form class="form-container" action="mailto:tu-correo@ejemplo.com" method="POST" enctype="text/plain">
+                <h2>Contacto</h2>
+
+                <label for="nombre">Nombre</label>
+                <input class="form-input" type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico</label>
+                <input class="form-input" type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea class="form-textarea" id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <input class="form-submit" type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+
+
+    <footer>
+        <a href="https://www.instagram.com/_varelanicolas/" target="_blank">
+            <img src="images/instagram.png" alt="Instagram">
+        </a>
+        <a href="https://open.spotify.com/user/3155lgws47qstltskolwbzzxojdy?si=edf8f0b940e7486e" target="_blank">
+            <img src="images/spotify.png" alt="Spotify">
+        </a>
+        <div class="texto-footer">
+            <p>&copy; 2025 Nicolas Varela | Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
